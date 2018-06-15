@@ -1,0 +1,55 @@
+ul {
+  color: #800000;
+  width:100px;
+}
+li {
+  list-style-type: none;
+  margin: 0px;
+  padding:10px;
+  background-color: #999999;
+}
+li a {
+  text-align: center;
+}
+#home {
+  background-color: #00b491;
+}
+.orange {
+  color: #ffa07a;
+}
+img {
+  height:120px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: red;
+
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("Screen Shot 2018-05-24 at 12.06.04 PM.png");
+  height: 100%;
+}
+
+
+.bg {
+    /* The image used */
+    background-image: url("/Users/owner/Desktop/essence/Screen Shot 2018-05-24 at 12.06.04 PM.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
